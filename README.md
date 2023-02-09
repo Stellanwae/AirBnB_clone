@@ -19,3 +19,30 @@ The final product of the web should be something like:
 ![image](https://user-images.githubusercontent.com/99267699/217813450-0725dd3f-c703-4d25-a326-6db05039a8ca.png)
 
 ![image](https://user-images.githubusercontent.com/99267699/217813505-d9626d15-64d0-42ee-994d-da7f7fa87a03.png)
+
+### Description of the command intepreter
+----
+#### How to start it
+----
+The CMD intepreter will be started by executing the command ``./console.py``. 
+
+#### How to use it
+---
+Console will ``Create``, ``destroy`` and ``update`` objects. To get help within the console, simply type ``help``.
+
+#### Examples
+--- 
+
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
